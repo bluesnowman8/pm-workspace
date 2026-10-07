@@ -4,6 +4,7 @@ PM業務の情報をすべてこの1リポジトリに集約し、Claude Code �
 参考: 「生成AI協働型 PM業務設計ガイドライン：個人フォルダー構成と情報管理手順」
 
 ## この仕組みで解決すること
+要件の原文と対応表は [docs/requirements.md](docs/requirements.md)。
 | 困っていること | 仕組み |
 |---|---|
 | 自分の業務一覧を把握し続けられない | すべての業務を `Tasks/` に集約し、`Tasks/dashboard.md` で一覧する。会話やメモに業務が出てきたら AI が必ず登録する |
@@ -53,6 +54,7 @@ PM業務の情報をすべてこの1リポジトリに集約し、Claude Code �
 | `Context/` | 関係者・略語・文体ルールなどの暗黙知 |
 | `Inbox/` | 会議・チャットの要点や、PDF化した資料の一時置き場 |
 | `.claude/skills/` | 定型業務のスキル（スラッシュコマンド） |
+| `docs/` | 要件（`requirements.md`）と試験運用の手順（`trial-run.md`） |
 
 AIへのルールは `CLAUDE.md` にある。構成もルールも、使いにくければ変えてよい（変えたら CLAUDE.md と各 README.md も更新する）。
 

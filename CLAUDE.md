@@ -19,6 +19,8 @@
 - /Context/ : 関係者（people.md）・用語（glossary.md）・文体ルール（writing-style.md）
 - /Inbox/ : 未整理の取り込み情報（会議・チャットの要点、PDF化した資料）
 - /.claude/skills/ : 定型業務のスキル（/start-day 等で呼び出す）
+- /docs/requirements.md : このワークスペースに求められている要件（仕組みを変えるときは必ず確認する）
+- /docs/trial-run.md : 試験運用の手順と評価のしかた
 - 各フォルダーの README.md に索引がある。まず README.md を読み、全ファイルの走査は避けること。
 
 ## 3. 優先度の定義（/Tasks/README.md と共通）
