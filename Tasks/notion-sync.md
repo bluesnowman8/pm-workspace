@@ -3,7 +3,7 @@
 Notion「Memo / Work / Weekly Plans」の今週のページを `/notion-sync` が読み取った結果。Notion は読むだけで、編集しない。
 書式と手順は `.claude/skills/notion-sync/SKILL.md` を参照。
 
-- 最終同期: 2026-10-08 18:21（初回。手動で実行）
+- 最終同期: 2026-10-09 /start-day（差分なし。ページの最終編集は 10/08 18:21 のまま）
 - 今週のページ: 2026/10/05 Mon. -10/09 Fri.
 
 ## 確認待ち
