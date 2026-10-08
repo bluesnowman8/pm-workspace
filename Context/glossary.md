@@ -15,6 +15,8 @@
 | ONE計画 / NoteOne計画 | 要記入 | 在庫使用計画 |
 | SKUリスト | 要記入 | 価格推移、10月PJ |
 | Secured Core | 要記入 | V75・V755・B/DA5 の問題 |
+| SCL | Secured Core Level。「SCL3」のようにレベルの数字を付けて使う | Secured Core 問題（例：法人も SCL2 で OK） |
+| MTL | Intel の Meteor Lake 世代の CPU | V74/75 の MTL |
 | MC | 要記入 | SKU追跡アプリ、価格 |
 | Gfk | 市場シェアの調査データ | 販売台数の推定 |
 | ITS / IGS | 要記入（本人も確認中） | 金曜タブの疑問 |
