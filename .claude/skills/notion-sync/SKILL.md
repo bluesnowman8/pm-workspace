@@ -5,6 +5,9 @@ description: Notion の今週の週次ページ（Memo / Work / Weekly Plans）�
 
 # 前提
 - **Notion は読むだけ**。Notion のページは絶対に編集しない。
+- **使うのは claude.ai の Notion コネクター**（ツール名 `mcp__<ID>__notion-search` / `notion-fetch`。遅延読み込みなら ToolSearch で `notion-search` を探して読み込む）。
+  - セッション開始時に「plugin:Notion:notion が未認証」と出ることがあるが、これは**別のプラグイン版で、使わない**。この表示だけで「Notion が未認証・同期できない」と判断・報告しない。
+  - 「接続できない」と言えるのは、claude.ai コネクターの notion-search を実際に呼んで失敗したときだけ。
 - 役割分担：ユーザーは日中 Notion の週次ページに書き込む（入力元）。業務一覧・優先度・依頼の管理は pm-workspace が正。
 - 取り込まないもの：
   - 電話番号、URL（Teams・SharePoint・社内システム・Web）。リンクは表示テキストだけ残す

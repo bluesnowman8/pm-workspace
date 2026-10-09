@@ -70,6 +70,7 @@
 - 【必須】Outlook・Teams には接続しない（社内ルールで外部サービスに接続できない）。メール・チャットの中身は、ユーザーが貼り付けたものか /Inbox に置いたものだけを扱う（/inbox）。
 - 【必須】確認メッセージ・返信は、Teams・Outlook に貼り付けて使える文面の下書きとして出す。予定は「Outlook に入れる予定の案」として出す。
 - 【必須】Notion の週次ページ（Memo / Work / Weekly Plans）は読むだけ。編集しない。電話番号・URL・添付は取り込まない（/notion-sync）。
+- 【必須】Notion は claude.ai の Notion コネクター（notion-search / notion-fetch）で読む。「plugin:Notion:notion が未認証」という表示は別のプラグイン版のもので無関係。実際に notion-search を呼んで失敗しない限り「Notion に接続できない」と報告しない。
 
 ### 文面
 - 【必須】上司・社外向けの文面は /Context/people.md と /Context/writing-style.md に従うこと。
