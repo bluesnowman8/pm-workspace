@@ -23,16 +23,16 @@ pm-workspace を作った目的と、ukiyono さんが求めていることの�
 
 | # | 要件 | 仕組み | 置き場所 |
 |---|---|---|---|
-| R1 | 自分の業務一覧を把握し続けられるようにする | すべての業務を Tasks に集約し、ダッシュボードで一覧する。会話・メモに業務が出てきたら AI が必ず登録する。月1回の棚卸し | `Tasks/dashboard.md`・`Tasks/todo.md`・`/inventory`・`/dashboard`・`/sync-tasks`・CLAUDE.md「業務一覧（課題1）」 |
-| R2 | 他の人へ渡した業務の進捗管理を忘れないようにする | 渡した業務を「次回確認日」付きで登録し、確認日が来たら朝に AI が知らせる。確認メッセージの下書きも作る | `Tasks/delegated.md`・`/delegate`・`/follow-up`・`/start-day`・CLAUDE.md「渡した業務（課題2）」 |
-| R3 | 優先順位の決定を省かないようにする | 優先度（P1〜P4）の無いタスクを残さない。毎朝「今日のトップ5」を決める（2026-10-12 にトップ3から変更）。P1 が9件以上なら指摘する（上限8件。2026-10-09 に4件から変更） | `/start-day`・`/prioritize`・CLAUDE.md「優先順位（課題3）」 |
+| R1 | 自分の業務一覧を把握し続けられるようにする | すべての業務を Tasks に集約し、ダッシュボードで一覧する。会話・メモに業務が出てきたら AI が必ず登録する。月1回の棚卸し | `Tasks/dashboard.md`・`Tasks/todo.md`・`/inventory`・`/dashboard`・`/sync-tasks`・AGENTS.md「業務一覧（課題1）」 |
+| R2 | 他の人へ渡した業務の進捗管理を忘れないようにする | 渡した業務を「次回確認日」付きで登録し、確認日が来たら朝に AI が知らせる。確認メッセージの下書きも作る | `Tasks/delegated.md`・`/delegate`・`/follow-up`・`/start-day`・AGENTS.md「渡した業務（課題2）」 |
+| R3 | 優先順位の決定を省かないようにする | 優先度（P1〜P4）の無いタスクを残さない。毎朝「今日のトップ5」を決める（2026-10-12 にトップ3から変更）。P1 が9件以上なら指摘する（上限8件。2026-10-09 に4件から変更） | `/start-day`・`/prioritize`・AGENTS.md「優先順位（課題3）」 |
 | R4 | GUI の Claude Code（デスクトップアプリ）で運用する | clone したフォルダーをデスクトップアプリで開き、スラッシュコマンドか普通の依頼文で使う | `README.md`「初回セットアップ」「毎日の流れ」 |
 | R5 | GitHub の別リポジトリで管理する | private リポジトリ `bluesnowman8/pm-workspace` | このリポジトリ |
-| R7 | 仕事用の秘書として、呼ばなくても自分から報告してくる | 平日 8:30・13:00・17:30 に定期実行で朝・昼・夕の報告。判断が要るものは「確認待ち」にためて、報告のときにまとめて聞く | `/start-day`・`/midday-check`・`/end-day`・`Tasks/notion-sync.md`・CLAUDE.md「秘書としての振る舞い」 |
+| R7 | 仕事用の秘書として、呼ばなくても自分から報告してくる | 平日 8:30・13:00・17:30 に定期実行で朝・昼・夕の報告。判断が要るものは「確認待ち」にためて、報告のときにまとめて聞く | `/start-day`・`/midday-check`・`/end-day`・`Tasks/notion-sync.md`・AGENTS.md「秘書としての振る舞い」 |
 | R8 | Notion の週次ページを使い続け、30分ごとに読み取ってタスク状況を更新する（業務用PCの起動中だけでよい） | 平日 8〜19時台の毎時15分・45分に `/notion-sync` を定期実行。前回のスナップショットとの差分だけを反映。Notion は読むだけ。記録はリポジトリ内の md | `/notion-sync`・`Tasks/notion/`・`Tasks/notion-sync.md` |
-| R9 | Outlook・Teams には接続しない（社内ルール） | メール・チャットは貼り付けか Inbox 経由（`/inbox`）。返信・確認メッセージは貼り付け用の下書き、予定は Outlook に入れる案として出す | `/inbox`・CLAUDE.md「外部サービス」 |
-| R10 | 渡した業務・期限のある業務を見逃さない（Notion に書いた量に埋もれない） | Notion の目印（`→名前 内容 〆期限 確確認日`）を機械的に拾い、確認なしで登録する。通知には件数ではなく依頼先と内容を入れ、未回収が残っていれば昼・夕にも出す。依頼時に Teams の予約送信用の確認文を出す | `/notion-sync`・`/delegate`・`/follow-up`・`docs/scheduled-tasks.md`・CLAUDE.md「渡した業務（課題2）」 |
-| R6 | 参考動画（ガイドライン）の考え方に沿う | 1フォルダー集約、DailyNotes / Projects / Tasks、CLAUDE.md・Skills・README 索引、人間と AI のギャップ対策（Context / Inbox） | リポジトリ全体 |
+| R9 | Outlook・Teams には接続しない（社内ルール） | メール・チャットは貼り付けか Inbox 経由（`/inbox`）。返信・確認メッセージは貼り付け用の下書き、予定は Outlook に入れる案として出す | `/inbox`・AGENTS.md「外部サービス」 |
+| R10 | 渡した業務・期限のある業務を見逃さない（Notion に書いた量に埋もれない） | Notion の目印（`→名前 内容 〆期限 確確認日`）を機械的に拾い、確認なしで登録する。通知には件数ではなく依頼先と内容を入れ、未回収が残っていれば昼・夕にも出す。依頼時に Teams の予約送信用の確認文を出す | `/notion-sync`・`/delegate`・`/follow-up`・`docs/scheduled-tasks.md`・AGENTS.md「渡した業務（課題2）」 |
+| R6 | 参考動画（ガイドライン）の考え方に沿う | 1フォルダー集約、DailyNotes / Projects / Tasks、AGENTS.md・Skills・README 索引、人間と AI のギャップ対策（Context / Inbox） | リポジトリ全体 |
 
 ## 3. 決定事項
 

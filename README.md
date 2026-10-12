@@ -74,7 +74,7 @@ PM業務の情報をすべてこの1リポジトリに集約し、Claude Code �
 | `.claude/skills/` | 定型業務のスキル（スラッシュコマンド） |
 | `docs/` | 要件（`requirements.md`）と試験運用の手順（`trial-run.md`） |
 
-AIへのルールは `CLAUDE.md` にある。構成もルールも、使いにくければ変えてよい（変えたら CLAUDE.md と各 README.md も更新する）。
+AIへのルールは `AGENTS.md` にある（`CLAUDE.md` は置かない。置くと Claude Code は AGENTS.md を読まなくなる）。構成もルールも、使いにくければ変えてよい（変えたら AGENTS.md と各 README.md も更新する）。
 
 ## 注意
 - 必ず private のまま運用する。業務資料を置く前に会社の情報管理ルールを確認すること。
