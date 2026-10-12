@@ -5,6 +5,7 @@ Notion「Memo / Work / Weekly Plans」の今週のページを `/notion-sync` �
 
 - 最終同期: 2026-10-12 15:03 /start-day（ページの最終編集 10/12 15:03）
 - 今週のページ: 2026/10/12 Mon. -10/16 Fri.
+- 最後に振った番号: D-006 / Q-010（再利用しない。新しく振ったら更新する。決まりは `Tasks/README.md`）
 
 ## 確認待ち
 AI が自分では決められないもの。/start-day・/midday-check・/end-day でまとめて確認し、決まったら消す。
