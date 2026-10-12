@@ -7,7 +7,7 @@ description: 指定した案件の直近ログと議事録から、定例会議�
 
 # 手順
 1. 対象の案件名を確認する（指定がなければ質問する）。
-2. `/Projects/<案件>/README.md`、`meetings/` の直近の議事録、前回会議以降の `/Daily Notes/` の該当案件のメモ、`/Tasks/todo.md` の該当案件のタスクを読む。
+2. `/Projects/<案件>/README.md`、`meetings/` の直近の議事録、前回会議以降の `/DailyNotes/` の該当案件のメモ、`/Tasks/todo.md` の該当案件のタスクを読む。
 3. 以下の構成でたたき台を作る：
    - 前回からの進捗
    - 前回の宿題の状況

@@ -4,7 +4,7 @@ description: 週の振り返り。案件横断の進捗・渡した業務の状�
 ---
 
 # 手順
-1. 今週の週次フォルダー（/Daily Notes/YYYY-Wxx/）の全ノート、/Tasks/todo.md、/Tasks/delegated.md、/Tasks/done/ の今週分を読む。
+1. 今週の週次フォルダー（/DailyNotes/YYYY-Wxx/）の全ノート、/Tasks/todo.md、/Tasks/delegated.md、/Tasks/done/ の今週分を読む。
 2. 案件ごと（/Projects/README.md の一覧順）に以下をまとめる：
    - 今週の進捗（完了したこと）
    - 渡した業務の状況（順調／遅延／確認待ち）

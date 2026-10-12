@@ -1,6 +1,6 @@
 # Inbox（索引）
 
-まだ整理していない情報の一時置き場。AI に「Inbox を整理して」と頼むと、内容に応じて Projects・Tasks・Daily Notes へ振り分ける。
+まだ整理していない情報の一時置き場。AI に「Inbox を整理して」と頼むと、内容に応じて Projects・Tasks・DailyNotes へ振り分ける。
 
 ## 置くもの
 - Teams / Slack / メールで決まったことの要点（コピペでよい）
